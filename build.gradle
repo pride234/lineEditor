@@ -10,11 +10,36 @@ repositories {
 }
 
 dependencies {
+    testImplementation  'org.junit.platform:junit-platform-suite-engine:1.9.0'
+    testImplementation  'org.junit.platform:junit-platform-suite-commons:1.9.0'
+    testImplementation  'org.junit.platform:junit-platform-suite:1.9.0'
+    implementation 'org.junit.platform:junit-platform-suite-api:1.9.0'
+
+    testImplementation  'org.junit.platform:junit-platform-runner:1.9.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
     implementation 'org.junit.jupiter:junit-jupiter:5.9.0'
+
+    implementation 'junit:junit:4.13.2'
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    implementation 'com.sun.xml.parsers:jaxp-ri:1.4.5'
+    implementation 'org.apache.commons:commons-csv:1.9.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testImplementation 'org.junit.platform:junit-platform-suite-api:1.9.0'
+    testImplementation 'org.junit.platform:junit-platform-runner:1.9.0'
 }
 
 test {
     useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "com.gradle.tutorial.FizzBuzzProcessor"
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }

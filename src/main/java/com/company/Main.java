@@ -1,5 +1,10 @@
 package com.company;
 
+import buffer.PlainTextBuffer;
+import buffer.TextBuffer;
+import command.CommandsExecutor;
+import command.InvalidCommandException;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -14,11 +19,9 @@ public class Main {
         }
         catch (ArrayIndexOutOfBoundsException e){
             System.out.println("====Error! No file specified. Exiting the program...====");
-            e.printStackTrace();
             System.exit(0);
         } catch (FileNotFoundException e) {
             System.out.println("====Error! File not found. Exiting the program...====");
-            e.printStackTrace();
             System.exit(0);
         }
         CommandsExecutor cmd = new CommandsExecutor(buffer);
@@ -31,10 +34,9 @@ public class Main {
                 cmd.executeCommand(uInput);
             }
             catch (InvalidCommandException e){
-                e.printStackTrace();
-                System.out.println("No such command. Please, try again");
+                System.out.println("Invalid command format. Please, try again");
+                System.out.println(e.getMessage());
             } catch (IOException e) {
-                e.printStackTrace();
                 System.out.println("IOException. Please, try again");
             }
         }
