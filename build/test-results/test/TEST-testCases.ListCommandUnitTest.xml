@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testCases.ListCommandUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-01T08:14:25" hostname="DESKTOP-430QMC7" time="0.033">
-  <properties/>
-  <testcase name="ListCommandTestEmptyFile()" classname="testCases.ListCommandUnitTest" time="0.015"/>
-  <testcase name="ListCommandTestNotEmptyFile()" classname="testCases.ListCommandUnitTest" time="0.014"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
