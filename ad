@@ -1,0 +1,127 @@
+[33mcommit 93fdcfe9fc3a2868519aedc29fad1fb99c4157ed[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:52:39 2022 +0300
+
+    .gitignore is now working
+
+[33mcommit b95a456479764b0cb27fe7316f14e67496374b2a[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:41:54 2022 +0300
+
+    fixed untracked files
+
+[33mcommit 483e7a2044228f5fea467d72d8febe91d39c21b1[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:39:50 2022 +0300
+
+    fixed untracked files
+
+[33mcommit 5d6d5471cd7230295df4bdce57a482b873bee8a6[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:27:41 2022 +0300
+
+    fixed untracked files
+
+[33mcommit eddb08f97474f2f347ad9955b0266576afffcd36[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:23:24 2022 +0300
+
+    fixed untracked files
+
+[33mcommit 4e9b97982a385ff396941e522973c3599ff2583e[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:18:34 2022 +0300
+
+    fixed untracked files
+
+[33mcommit 67bbd315bcb19298d7ba6c3d746c501338791a28[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:10:28 2022 +0300
+
+    added .gitignore
+
+[33mcommit 99e16f8f34cd7df96fece363bbebfe3b200e507d[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:08:33 2022 +0300
+
+    added .gitignore
+
+[33mcommit 827762b6fa8867d8bb05b8d54c2985a0035b7b9c[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:08:00 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 0c4ff0fc80a731743dd68c923876cb256d3438f2[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 12:06:31 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 561b21fb6ca37cbaa7e5642a3de1808e946a8856[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:57:01 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 166df385474b477c6d3c19470cab4c3da464f873[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:56:04 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 41fe0980c22fe9dfe8257d3b58c46b9a1cfe3b0a[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:54:50 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 00838ec8f4b675cbaca3866765e4f1d44afef429[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:54:26 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 799482ee0f703c11bc2dc6cd9f23919687c22985[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:53:19 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit 86e4866046ef7531d5635cc93b3552a6e2c8aec8[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:46:51 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in C
+    ommandFacroty -- tests are OK
+
+[33mcommit a52858484f02c4d8714d68d97fa0b5f0cac853df[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Sat Oct 1 11:32:33 2022 +0300
+
+    added .gitignore; replaced if-else on switch-case in CommandFacroty -- tests are OK
+
+[33mcommit d93efef8020314f5f3231ba4a7dabfea993a180b[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Tue Sep 27 10:46:07 2022 +0300
+
+    finalized the code
+
+[33mcommit 1deed655220bdbc490d10a8185265143032375fb[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Mon Sep 26 17:27:29 2022 +0300
+
+    added readme.md
+
+[33mcommit 3070f362801785fb3c46ee1b9c2b5149688da91a[m
+Author: pride234 <shinigami466914@gmail.com>
+Date:   Mon Sep 26 17:23:30 2022 +0300
+
+    initial
