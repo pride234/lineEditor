@@ -10,55 +10,39 @@ public class CommandFactory{
     }
 
     public Command createCommand (String command) throws InvalidCommandException{
-        if (command.equals("list")){
-            return new ListTextCommand(buffer);
-        }
-        else if(command.contains("del")){
-            String[] str = command.split(" ");
-            if (str[0].equals("del")){
-
+        String[] enteredCommand = command.split(" ", 3);
+        switch (enteredCommand[0]){
+            case "list":
+                return new ListTextCommand(buffer);
+            case "del":
                 try {
-                    return new DeleteLineAtPositionCommand(buffer, Integer.parseInt(str[1]));
+                    return new DeleteLineAtPositionCommand(buffer, Integer.parseInt(enteredCommand[1]));
                 }
                 catch (NumberFormatException e){
-                    e.printStackTrace();
                     System.out.println("Invalid number format. Please, try again.");
                 }
                 catch (ArrayIndexOutOfBoundsException e) {
-                    e.printStackTrace();
                     System.out.println("Need a line number. Please, try again.");
                 }
-            }
-            throw new InvalidCommandException("Invalid command exception");
-        }
-        else if (command.contains("ins")){
-            String[] str = command.split(" ", 3);
-            if (str[0].equals("ins")){
+                throw new InvalidCommandException("Invalid command exception");
+            case "ins":
                 try {
-                    StringBuilder newLine = str.length >=3 ? new StringBuilder(str[2]) : new StringBuilder("");
-                    return new InsertLineAtPositionCommand(buffer, Integer.parseInt(str[1]), newLine);
+                    StringBuilder newLine = enteredCommand.length >=3 ? new StringBuilder(enteredCommand[2]) : new StringBuilder("");
+                    return new InsertLineAtPositionCommand(buffer, Integer.parseInt(enteredCommand[1]), newLine);
                 }
                 catch (NumberFormatException e){
-                    e.printStackTrace();
                     System.out.println("Invalid number format. Please, try again.");
-                    throw new InvalidCommandException("Invalid command exception");
                 }
                 catch (ArrayIndexOutOfBoundsException e) {
-                    e.printStackTrace();
                     System.out.println("Need a line number. Please, try again.");
-                    throw new InvalidCommandException("Invalid command exception");
                 }
-            }
-            throw new InvalidCommandException("Invalid command exception");
-        }
-        else if(command.equals("save")){
-            return new SaveCommand(buffer);
-        }
-        else if (command.equals("quit")){
-            return new QuitCommand(buffer);
-        }
-        else{
-            throw new InvalidCommandException("Invalid command exception");
+                throw new InvalidCommandException("Invalid command exception");
+            case "save":
+                return new SaveCommand(buffer);
+            case "quit":
+                return new QuitCommand(buffer);
+            default:
+                throw new InvalidCommandException("Invalid command exception");
         }
     }
 }
