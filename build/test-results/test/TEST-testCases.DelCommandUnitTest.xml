@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCases.DelCommandUnitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-10-01T08:14:24" hostname="DESKTOP-430QMC7" time="0.449">
+  <properties/>
+  <testcase name="del -1" classname="testCases.DelCommandUnitTest" time="0.221"/>
+  <testcase name="del 0" classname="testCases.DelCommandUnitTest" time="0.018"/>
+  <testcase name="del 3" classname="testCases.DelCommandUnitTest" time="0.014"/>
+  <testcase name="del 20" classname="testCases.DelCommandUnitTest" time="0.009"/>
+  <testcase name="del 100" classname="testCases.DelCommandUnitTest" time="0.013"/>
+  <testcase name="del -1" classname="testCases.DelCommandUnitTest" time="0.012"/>
+  <testcase name="del 0" classname="testCases.DelCommandUnitTest" time="0.011"/>
+  <testcase name="del 3" classname="testCases.DelCommandUnitTest" time="0.02"/>
+  <testcase name="del 20" classname="testCases.DelCommandUnitTest" time="0.01"/>
+  <testcase name="del 100" classname="testCases.DelCommandUnitTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
